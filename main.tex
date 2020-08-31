@@ -24,57 +24,83 @@
 \vspace{0.1cm}
 \cvsubsection{\normalfont{}\textbf{Amrita school of engineering}, Bangalore, India}[\normalfont{}Aug 2012 - Jun 2016]
 [\normalfont{}Bachelor of Technology in \textbf{Computer Science}][GPA: 8.46/10]
-\vspace{0.25cm}
+\vspace{0.5cm}
 \section{Technical Skills}
 \begin{itemize}
 \item \textbf{Programming Languages:} Java, Javascript, Python, C++ and Golang.
-\item \textbf{Platforms, web-development and databases:} Java EE, Android, Django, nodejs, Reactjs, MYSQL, MongoDB and DynamoDB
-\item \textbf{Devops and deployment:} Heroku, Google cloud platform, Firebase, AWS services (S3, Lambda, VPC,CloudFormation)
+\item \textbf{Platforms, web-development and databases:} Java EE,HTML/CSS, Android, Django, nodejs, Reactjs, MYSQL, MongoDB and DynamoDB
+\item \textbf{Devops and deployment:} Heroku, Google cloud platform, Firebase, AWS services (S3, API Gateway, Batch, Lambda, VPC and CloudFormation)
 \end{itemize}
  
- 
+\vspace{0.5cm}
 \section{Professional Experience}
 
 \cvsubsection{Amazon AWS, CodeGuru Reviewer}[\normalfont{}Seattle (Remote)]
-[Software development Engineer intern][\normalfont{} June 2020 - August 2020]
+[Software development Engineer intern - Full stack][\normalfont{} June 2020 - August 2020]
 \vspace{0.25cm}
 \begin{itemize}
-\item Built a REST API service for the CodeGuru Reviewer Training team using. AWS Lambda (Java), API Gateway and DynamoDB that allows users to tag data points with properties, and generate custom ML datasets based on data point properties.
-\item Involved in the full development life cycle, from initial design and prototyping, to development, testing and release. Led discussions with stakeholders to discuss the overall product vision.
+\item Built an end-to-end service that allowed the team's to tag data points with properties, and generate custom ML datasets based 
+on data point properties. Involved in the full development life cycle, from initial design and prototyping, to development, testing and release. 
+Led discussions with stakeholders to discuss the overall product vision.
+\item The backend \textbf{REST API} service was built using \textbf{AWS Lambda (Java)}, \textbf{API Gateway} and \textbf{DynamoDB}.
+\item The UI portal was built using \textbf{ReactJS} for page rendering with Polaris(internal) stylekit for styling, and \textbf{AWS Lambda} 
+and \textbf{AWS S3} for serving UI content.
+
+
 \end{itemize}
 
 \cvsubsection{Chargebee}[\normalfont{}Chennai, India][Software engineer - Full stack][\normalfont{} Jan 2016 - May 2019]
 \vspace{0.25cm}
-Worked in the integration and e-commerce teams. Responsible for collaborating with product and design teams to build features and software for the subscription billing platform Chargebee. Designed, developed and maintained :-
 \begin{itemize}
-\item The recurring delivery management module for the product. This module is currently being used by Chargebee’s customers to service thousands of deliveries every day.
-\item The revenue recognition reporting system in a team of 3, to automate the revenue recognition workflow for Chargebee’s customers.
-\item An internal REST API based integration framework to integrate Chargebee to other web apps, and used the framework to integrate Chargebee to accounting platform Xero. The framework is being extensively used by multiple teams to support over 10 other integrations.
+\item Built services for the  \emph{Integration} and \emph{E-commerce} teams using \textbf{Java EE} and \textbf{MYSQL} databases, 
+on top of internal frameworks.
+\item Responsible for collaborating with product and design teams to build features 
+and software modules for the subscription billing platform Chargebee. Designed, developed and maintained :-
+\begin{itemize}
+\item The recurring delivery management module for the product. This module is currently being used by Chargebee’s customers to 
+service \emph{thousands of deliveries} every day.
+\item The revenue recognition reporting system in a team of 3, to automate the revenue recognition workflow for 
+Chargebee’s customers.
+\item An internal \textbf{REST API} based integration framework to integrate Chargebee to other web apps, and used the framework to integrate 
+Chargebee to accounting platform Xero.The framework is being extensively used by multiple teams to support over 10 other integrations.
+\end{itemize}
 \end{itemize}
 
-
+\vspace{0.5cm}
 \section{Projects}
 
  \cvsubsection{\normalfont{}\textbf{LoopedIn}
- \href{https://github.com/shiva-reddy-uic/arify-android-client}{\em{Github Repo}}}[\normalfont{}Feb 2020 to May 2020]
+ \href{https://github.com/shiva-reddy-uic/arify-android-client}{\em{Github Repo}}}[\normalfont{}Feb 2020 - May 2020]
 \begin{itemize}
-    \item A chat-focused social networking platform built using \textbf{ReactJS} for UI, \textbf{Redux} for client state management, \textbf{MongoDB} as backing store, \textbf{NodeJS} for backend server and \textbf{Firebase} for Authentication. \textbf{CI/CD} pipeline was implemented to run unit tests using \textbf{Github Actions}. Created \textbf{Docker Containers} to automatically deploy on Google cloud platform server.
+    \item A chat-focused social networking platform built using \textbf{ReactJS} for UI, \textbf{Redux} for client state management, 
+    \textbf{MongoDB} as backing store, \textbf{Express + NodeJS} for backend server and \textbf{Firebase} for Authentication. 
+    
+    \item  Used \textbf{docker} containers to setup \emph{continuous development} and automatically deploy the service on the \textbf{Google cloud platform} stack. 
+    \emph{Continuous integration} pipeline was implemented to run unit tests using \textbf{Github Actions}. 
+   
 \end{itemize} 
 
  \cvsubsection{\normalfont{}\textbf{ARify} \href{https://github.com/shiva-reddy-uic/arify-android-client}{\em{Github Repo}}}[\normalfont{}November 2019]
 \begin{itemize}
-    \item Developed an AR \textbf{android} app which lets the user build dynamic \textbf{Augmented Reality} workflows. The app uses \textbf{Viro ARCore} for rendering 3D objects on image detection. App follows the latest design principles of material design.
-    \item Developed a \textbf{Django} based web server which lets the user upload a 3D object and allow them to link it to the image. The server also exposes a \textbf{REST} API, to be used by the android app. The server uses \textbf{sqlite-db} for data storage and \textbf{Amazon S3} web service for file storage. Bootstrap was used to style.
+    \item Developed an AR \textbf{Android} app which lets the user build dynamic \textbf{Augmented Reality} workflows. 
+    The app uses \textbf{Viro ARCore} for rendering 3D objects on image detection. 
+    The app's UI follows the latest design principles of material design.
+    \item Developed a \textbf{Django (Python)} web server deployed on \textbf{Heroku} which lets the user upload a 3D object and allow them to link it to the image.
+     The server also exposes a \textbf{REST} API, to be used by the android app. Used \textbf{sqlite-db} 
+     for data storage and \textbf{Amazon S3} web service for file storage.
 \end{itemize} 
 
  \cvsubsection{\normalfont{} \textbf{Stackoverflow  tag prediction}}[\normalfont{}November 2019]
 \begin{itemize}
-    \item Worked in a team to build a machine learning classifier to predict tags for stackoverflow questions using datasets from Kaggle. Logistic regression, SVM and Neural network classifiers were used.
+    \item Worked in a team to build a machine learning classifier (\textbf{Python}, \textbf{Pytorch}) to predict tags for 
+    stackoverflow questions using datasets from Kaggle. Logistic regression, SVM and Neural network classifiers were used.
 \end{itemize} 
 
- \cvsubsection{\normalfont{} \textbf{Mix network implementations}}[\normalfont{}November 2019]
+ \cvsubsection{\normalfont{}\textbf{Mix network implementations}
+ \href{https://github.com/shiva-reddy-uic/arify-android-client}{\em{Github Repo}}}[\normalfont{}Feb 2020 - April 2020]
 \begin{itemize}
-    \item Developed a mixed network proxy server implementation for GoLang which uses several mixing strategies to randomize the order of requests in a TOR network and defends the privacy of the network, when under attack.
+    \item Developed a mixed network proxy server implementation for \textbf{GoLang} which uses several mixing strategies 
+    to randomize the order of requests in a TOR network and defends the privacy of the network, when under attack.
 \end{itemize} 
 
 \end{document}
